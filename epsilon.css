@@ -1,0 +1,48 @@
+.Apprenti{color: blue;}
+.Compagnon{color: green ;}
+.Passeur{color: red ;}
+.Guide{color: brown ;}
+
+.fa-sign-out-alt{color: red;}
+a.noUnderline{text-decoration: none;}
+a.continue{color: rgb(243, 214, 214)}
+.see{color: burlywood;}
+form{display: inline;}
+.disabled{color: rgba(128, 128, 128, 0);}
+.enabled{color: black;}
+
+html{text-align: center; background-size: cover; background-attachment: fixed;}
+body{display: flex; justify-content:center; align-items:center; margin: 2em; background-color: rgba(255, 255, 255, 0.75); border-radius: 2em;}
+.container{ padding-bottom: 5%; padding-top: 0%;}
+section, header{margin-top: 3em;}
+nav{float: right; margin-right: 1em;}
+
+ h1, strong{font-family:fantasy ; font-weight: bolder;} 
+#logo, h1{color: green;}
+#courses, #community, #signup>a:hover, #signin>a:hover{color: rgb(255, 255, 255);}
+
+
+#courses, #community{color: rgb(255, 255, 255);} 
+ol, ul{list-style-position: inside;}
+#connection, #retour{list-style-type: none;}
+#connection>li{display: inline; padding-left: 2em;}
+.cleared{clear: both;
+padding-top: 5%; padding-bottom: 5%;}
+#signup>a{color: darkorange; }
+#signin>a, #signup>a{text-decoration: none;}
+#signout>a{color: red;}
+#badges-list{color: rgba(128, 128, 128, 0);}
+.parcours{width: 100%; border: 2px solid black; border-radius: 1em; margin-left: -1em; margin-bottom: 1em; padding: 1em; background-color: rgba(53, 85, 53, 0.735); color: white;}
+.parcours-action{float:right; position: absolute; right: 8em;}
+.parcours-action-join{color: greenyellow; margin-right: 1em;}
+#parcours-list, #badges-list{list-style-type: none;}
+h2{margin-bottom: 1em; color: white;}
+.mobile{display: none;}
+i{
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .parcours-action{display: block; position: relative; float: right;} 
+    .mobile{display: block;}
+}/* width: 100%; margin:auto; text-align: center; clear: both;} */
